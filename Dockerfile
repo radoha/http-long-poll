@@ -1,4 +1,4 @@
-FROM remote-docker.artifactory.dbgcloud.io/ubi8/python-38:1-131
+FROM registry.access.redhat.com/ubi8/python-38:1-131
 
 WORKDIR /app
 
