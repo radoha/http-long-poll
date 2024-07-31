@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN pip install --proxy http://webproxy.deutsche-boerse.de:8080 -r requirements.txt
+RUN pip install -r requirements.txt
 
 COPY app.py .
 
